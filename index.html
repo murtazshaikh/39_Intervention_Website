@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get professional intervention support tailored for older adults. We help with needs assessment, insurance advocacy, and treatment planning. Connect with us today for a compassionate and effective consultation."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>GET AN INTERVATION</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="/">
+              <img src="img/logo.svg" alt="logo" aria-multiline="logo" />
+            </a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="/" class="nav-selected">HOME</a></li>
+              <li><a href="/">ABOUT</a></li>
+              <li><a href="/">CONTACT</a></li>
+              <span class="pipe">|</span>
+              <span class="call-now"
+                >CALL NOW FOR A CONSULT
+                <span class="port">123.456.7890</span></span
+              >
+            </ul>
+          </nav>
+          <img
+            src="img/menu.png"
+            class="menu-icon"
+            onclick="menutoggle()"
+            alt="menu-icon"
+          />
+        </div>
+        <div class="call-now-cont">
+          <span class="call-now tab"
+            >CALL NOW FOR A CONSULT <span class="port">123.456.7890</span></span
+          >
+        </div>
+
+        <!-- header banner -->
+        <section class="hero-banner">
+          <div class="hero">
+            <h1><span>GET AN</span> INTERVENTION</h1>
+            <p>
+              Showing greater respect to older adults can be done in several
+              ways: acknowledging and putting to use the talents and skills of
+              older adults; creating intergenerational initiatives; and allowing
+              older adults to stay active and independent for as long as
+              possible.
+            </p>
+          </div>
+          <div class="form-cont">
+            <form class="contact-form">
+              <h2>Contact Us</h2>
+              <div class="half">
+                <div>
+                  <input type="text" id="first-name" required />
+                  <label
+                    for="first-name"
+                    placeholder="First Name"
+                    alt="First Name"
+                  ></label>
+                </div>
+                <div>
+                  <input type="text" id="last-name" required />
+                  <label
+                    for="last-name"
+                    placeholder="Last Name"
+                    alt="Last Name"
+                  ></label>
+                </div>
+              </div>
+              <div class="half">
+                <div>
+                  <input type="text" id="business-email" required />
+                  <label
+                    for="business-email"
+                    placeholder="Business Email"
+                    alt="Business Email"
+                  ></label>
+                </div>
+                <div>
+                  <input type="text" id="company" required />
+                  <label
+                    for="business-email"
+                    placeholder="Company"
+                    alt="Company"
+                  ></label>
+                </div>
+              </div>
+              <!-- select start -->
+              <div class="select_mate" data-mate-select="active">
+                <select name="" onchange="" onclick="return false;" id="">
+                  <option value="">Country</option>
+                  <option value="1">Select option 1</option>
+                  <option value="2">Select option 2</option>
+                  <option value="3">Select option 3</option>
+                </select>
+                <p class="selecionado_opcion" onclick="open_select(this)"></p>
+                <span onclick="open_select(this)" class="icon_select_mate"
+                  ><svg
+                    width="10"
+                    height="5"
+                    viewBox="0 0 10 5"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99995 5L0.669823 -2.18762e-06L9.33008 -1.43051e-06L4.99995 5Z"
+                      fill="white"
+                    />
+                  </svg>
+                </span>
+                <div class="cont_list_select_mate">
+                  <ul class="cont_select_int"></ul>
+                </div>
+              </div>
+              <!-- select end -->
+              <button>
+                <span><img src="/img/mdi-send.png" /></span>Submit
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <div class="wave">
+        <img src="/img/r2.png" alt="curve" class="outer-wave screen" />
+        <img src="/img/r1.png" alt="curve" class="inner-wave screen" />
+        <img src="/img/r4.png" alt="curve" class="outer-wave tab" />
+        <img src="/img/r3.png" alt="curve" class="outer-wave tab" />
+        <img src="/img/r6.png" alt="curve" class="outer-wave mob" />
+        <img src="/img/r5.png" alt="curve" class="outer-wave mob" />
+      </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- we understand -->
+    <section class="we-understand-cont">
+      <div class="container">
+        <div class="image-cont">
+          <img src="/img/we-1.png" alt="understanding-img" />
+          <img src="/img/we-2.png" alt="understanding-img" />
+          <img src="/img/we-3.png" alt="understanding-img" />
+        </div>
+
+        <div class="we-description">
+          <div class="we-heading">
+            <h2>
+              <span class="we-outline">WE</span>
+              <span class="we-dark-text">UNDERSTAND</span>
+            </h2>
+            <div class="line"></div>
+          </div>
+
+          <div class="we-text-cont">
+            <p>
+              Older adults want to play active and meaningful roles in their
+              lives, including as part of a social network, a neighborhood, and
+              a community. Service providers and policymakers must consider that
+              a lack of sense of purpose can become problematic as people age.
+              Engaging them in leisure activities and volunteer work is
+              important.
+            </p>
+            <p>
+              Older adults want to stay active and contribute to society in a
+              reciprocal manner (meaning that they want to exchange their
+              services and skills with others for the mutual benefit of the
+              neighborhood or community). Qualitative and quantitative studies
+              published from 2005 to 2016 examining the social needs of older
+              adults were eligible for inclusion.
+            </p>
+            <p>
+              To stimulate social contacts, neighborhood initiatives can be
+              developed. Social meeting places, such as pubs and churches can
+              help to foster the development of close and peripheral
+              relationships.
+            </p>
+            <button>
+              92% Success Rate
+              <img src="/img/arrow-stroke.svg" alt="right-arrow" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- we understand end -->
+
+    <!-- slider start -->
+    <section class="slider-cont">
+      <div class="container">
+        <div class="carousel">
+          <button
+            type="button"
+            class="carousel_btn jsPrev"
+            aria-label="Previous slide"
+          >
+            <svg
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.24 39.76L20.48 24L36.24 8.24L32 4L12 24L32 44L36.24 39.76Z"
+              />
+            </svg>
+          </button>
+
+          <div class="carousel_track-container">
+            <ul class="carousel_track">
+              <li class="carousel_slide is-selected">
+                <div class="carousel_image">
+                  <div class="person-image-cont">
+                    <img src="/img/person-1.png" alt="person-img" />
+                  </div>
+                  <div class="qote-box">
+                    <h4>Abbie Harvey</h4>
+                    <p>
+                      I have been caring for my mom & dad off and on for about
+                      10 years now, and I know the importance of me being there
+                      for appointments. Older people need attention, love and
+                      care that they truly deserve.
+                    </p>
+                    <img src="/img/quote.png" alt="quote-icon" />
+                  </div>
+                </div>
+              </li>
+              <li class="carousel_slide">
+                <div class="carousel_image">
+                  <div class="person-image-cont">
+                    <img src="/img/person-2.png" alt="person-img" />
+                  </div>
+                  <div class="qote-box">
+                    <h4>Abbie Harvey</h4>
+                    <p>
+                      I have been caring for my mom & dad off and on for about
+                      10 years now, and I know the importance of me being there
+                      for appointments. Older people need attention, love and
+                      care that they truly deserve.
+                    </p>
+                    <img src="/img/quote.png" alt="quote-icon" />
+                  </div>
+                </div>
+              </li>
+              <li class="carousel_slide">
+                <div class="carousel_image">
+                  <div class="person-image-cont">
+                    <img src="/img/person-3.png" alt="person-img" />
+                  </div>
+                  <div class="qote-box">
+                    <h4>Abbie Harvey</h4>
+                    <p>
+                      I have been caring for my mom & dad off and on for about
+                      10 years now, and I know the importance of me being there
+                      for appointments. Older people need attention, love and
+                      care that they truly deserve.
+                    </p>
+                    <img src="/img/quote.png" alt="quote-icon" />
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <button
+            type="button"
+            class="carousel_btn jsNext"
+            aria-label="Next slide"
+          >
+            <svg
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M36.24 39.76L20.48 24L36.24 8.24L32 4L12 24L32 44L36.24 39.76Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- slider end -->
+
+    <!-- we can org start -->
+    <section class="we-can-org">
+      <div class="container">
+        <div class="we-heading">
+          <h2>
+            <span class="we-outline">WE</span>
+            <span class="we-dark-text">CAN ORGANIZE EVERYTHING</span>
+          </h2>
+          <div class="line"></div>
+        </div>
+        <div class="inventions-cont">
+          <p>
+            <span>Interventions</span> should focus on older adult’s desire for
+            connectedness, participation and independence.
+          </p>
+          <p>
+            Loneliness and social isolation are growing public health concerns
+            in our aging society. Whilst these experiences occur across the life
+            span, 50% of individuals aged over 60 are at risk of social
+            isolation and one-third will experience some degree of loneliness
+            later in life. It is vital to reduce loneliness and social isolation
+            among older adults.
+          </p>
+          <p>
+            The methodology framework proposed by Asked and O’Malley and further
+            developed by Levac, et al. was used to guide the scoping review
+            process. A total of 33 reviews met the inclusion criteria,
+            evaluating a range of interventions targeted at older people
+            residing in the community or institutionalised settings.
+          </p>
+        </div>
+        <div class="org-point-cont">
+          <div class="org-point">
+            <span>Insurance Advocacy</span>
+            <span class="icon">i</span>
+            <div class="tooltip">
+              We’re experienced in our individual crafts and understand how each
+              one of our roles impacts your plan holistically.
+            </div>
+          </div>
+          <div class="org-point">
+            <span>Treatment Planning & Placement</span>
+            <span class="icon">i</span>
+            <div class="tooltip">
+              We’re experienced in our individual crafts and understand how each
+              one of our roles impacts your plan holistically.
+            </div>
+          </div>
+          <div class="org-point">
+            <span>Transportation & Logistics</span>
+            <span class="icon">i</span>
+            <div class="tooltip">
+              We’re experienced in our individual crafts and understand how each
+              one of our roles impacts your plan holistically.
+            </div>
+          </div>
+          <div class="org-point">
+            <span>Insurance Advocacy</span>
+            <span class="icon">i</span>
+            <div class="tooltip">
+              We’re experienced in our individual crafts and understand how each
+              one of our roles impacts your plan holistically.
+            </div>
+          </div>
+          <div class="org-point">
+            <span>Employment Advocacy</span>
+            <span class="icon">i</span>
+            <div class="tooltip">
+              We’re experienced in our individual crafts and understand how each
+              one of our roles impacts your plan holistically.
+            </div>
+          </div>
+          <div class="org-point">
+            <span>Aftercare Planning</span>
+            <span class="icon">i</span>
+            <div class="tooltip">
+              We’re experienced in our individual crafts and understand how each
+              one of our roles impacts your plan holistically.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- we can org end -->
+
+    <!-- watch video start -->
+    <section class="watch-video">
+      <div class="left">
+        <img src="/img/r80.png" alt="shadow" class="bg-shadow" />
+        <img src="/img/r70.png" alt="curved-shape" class="bg-curve" />
+
+        <img src="/img/r80r.png" alt="shadow" class="bg-shadow-mob" />
+        <img src="/img/r70r.png" alt="curved-shape" class="bg-curve-mob" />
+
+        <div class="play-button-outer-mob">
+          <div class="play-button" onclick="openModal()">
+            <img src="/img/play.svg" alt="play-icon" class="play-icon" />
+          </div>
+        </div>
+
+        <h2><span>WATCH</span> <strong>THE VIDEO</strong></h2>
+
+        <div class="feature">
+          <div>
+            <img src="/img/checkmark.svg" alt="checkmark" />
+          </div>
+          <div class="feature-details">
+            <h3>Needs Assessment</h3>
+            <p>
+              The Advocacy Evaluation Toolkit contains the instruments used to
+              collect data for evaluating the Consumer Voices for Coverage
+              program.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div>
+            <img src="/img/checkmark.svg" alt="checkmark" />
+          </div>
+          <div class="feature-details">
+            <h3>Insurance Advocacy</h3>
+            <p>
+              We are committed to advocating for appropriate coverage and
+              payment policies.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div>
+            <img src="/img/checkmark.svg" alt="checkmark" />
+          </div>
+          <div class="feature-details">
+            <h3>Treatment Planning & Placement</h3>
+            <p>
+              Patients can better understand medical procedures, discharge
+              instructions, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="videoSection" class="right">
+        <img
+          src="/img/video-thumbnail.png"
+          alt="Video Preview"
+          class="video-cover"
+        />
+        <div class="play-button-outer">
+          <div class="play-button" onclick="openModal()">
+            <img src="/img/play.svg" alt="play-icon" class="play-icon" />
+          </div>
+        </div>
+        <img src="/img/logo.svg" alt="logo" class="cta" />
+      </div>
+    </section>
+
+    <!-- watch video end -->
+
+    <!-- modal popup start -->
+    <aside id="videoModal" class="modal-overlay" onclick="overlayClick(event)">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <button class="close-button" onclick="closeModal()">&times;</button>
+        <video id="popupVideo" autoplay controls>
+          <source
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support HTML video.
+        </video>
+      </div>
+    </aside>
+    <!-- modal popup end -->
+  </body>
+</html>
